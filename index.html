@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="public/style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+<div class="wrapper">
+    <form action="#">
+        <input type="file" hidden>
+        <img src="#" alt="qr-code">
+        <div class="content">
+            <i class="fas fa-cloud-upload"></i>
+            <p>O'qish uchun QR kodini yuklang!</p>
+        </div>
+    </form>
+    <div class="details">
+        <textarea spellcheck="false" disabled></textarea>
+        <div class="buttons">
+            <button class="close">Yopish</button>
+            <button class="copy">Nusxa olish</button>
+        </div>
+    </div>
+</div>
+<script src="public/js/index.js"></script>
+</body>
+</html>
